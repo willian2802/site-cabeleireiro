@@ -1,0 +1,59 @@
+img {
+    border-radius: 20px;
+}
+
+.back {
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url("img/cabeleireiro2.jpg");
+    background-size: cover;
+    height: 109vh;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 35%;
+    margin: 0 20px 0 auto;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.8)50%);
+}
+
+.login h2 {
+    background-color: burlywood;
+    border-radius: 18px;
+    margin: 10px;
+}
+
+.login input {
+    background: transparent;
+    border-bottom: 2px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.h2 {
+    float: left;
+    align-self: center;
+    margin: auto 0 0 0;
+}
+
+
+@media (max-width:780px)  {
+    .h2{
+        float: none;
+    }
+
+    .login{
+        margin: auto;
+        margin-top: 20px;
+        width: auto;
+    }
+}
+
+
+
